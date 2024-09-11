@@ -54,9 +54,11 @@ namespace ProjetoCity.Controllers
                 
             }
         }
-        public IActionResult PainelCliente() 
+        // Retorna o painel Cliente
+        public IActionResult PainelCliente()
         {
-            return View();
+            //retorna a pagina  a lista de clientes
+            return View(_clienteRepositorio.TodosClientes());
         }
 
         //criando pagina cadastro cliente

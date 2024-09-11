@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "F:\\3A-DS-ETIM\\MARCOS \u0026 MARIA\\ProjetoCity\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|f:\\3a-ds-etim\\marcos \u0026 maria\\projetocity\\projetocity\\views\\home\\painelcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|solutionrelative:projetocity\\views\\home\\painelcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|f:\\3a-ds-etim\\marcos \u0026 maria\\projetocity\\projetocity\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|solutionrelative:projetocity\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|f:\\3a-ds-etim\\marcos \u0026 maria\\projetocity\\projetocity\\repository\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|solutionrelative:projetocity\\repository\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|f:\\3a-ds-etim\\marcos \u0026 maria\\projetocity\\projetocity\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|solutionrelative:projetocity\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|f:\\3a-ds-etim\\marcos \u0026 maria\\projetocity\\projetocity\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|solutionrelative:projetocity\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +27,12 @@
       "RelativeMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|solutionrelative:projetocity\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|f:\\3a-ds-etim\\marcos \u0026 maria\\projetocity\\projetocity\\views\\home\\painelcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|solutionrelative:projetocity\\views\\home\\painelcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|f:\\3a-ds-etim\\marcos \u0026 maria\\projetocity\\projetocity\\repository\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|solutionrelative:projetocity\\repository\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|f:\\3a-ds-etim\\marcos \u0026 maria\\projetocity\\projetocity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|solutionrelative:projetocity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|f:\\3a-ds-etim\\marcos \u0026 maria\\projetocity\\projetocity\\views\\home\\cadastrarcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|solutionrelative:projetocity\\views\\home\\cadastrarcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|f:\\3a-ds-etim\\marcos \u0026 maria\\projetocity\\projetocity\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|solutionrelative:projetocity\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|f:\\3a-ds-etim\\marcos \u0026 maria\\projetocity\\projetocity\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1D4E9CF-97E9-4484-A529-4700529E4F78}|ProjetoCity\\ProjetoCity.csproj|solutionrelative:projetocity\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,39 +42,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\3A-DS-ETIM\\MARCOS \u0026 MARIA\\ProjetoCity\\ProjetoCity\\Program.cs",
+              "RelativeDocumentMoniker": "ProjetoCity\\Program.cs",
+              "ToolTip": "F:\\3A-DS-ETIM\\MARCOS \u0026 MARIA\\ProjetoCity\\ProjetoCity\\Program.cs",
+              "RelativeToolTip": "ProjetoCity\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T10:11:36.141Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Cliente.cs",
               "DocumentMoniker": "F:\\3A-DS-ETIM\\MARCOS \u0026 MARIA\\ProjetoCity\\ProjetoCity\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "ProjetoCity\\Models\\Cliente.cs",
               "ToolTip": "F:\\3A-DS-ETIM\\MARCOS \u0026 MARIA\\ProjetoCity\\ProjetoCity\\Models\\Cliente.cs",
               "RelativeToolTip": "ProjetoCity\\Models\\Cliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T11:07:40.264Z"
+              "WhenOpened": "2024-08-28T11:07:40.264Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PainelCliente.cshtml",
               "DocumentMoniker": "F:\\3A-DS-ETIM\\MARCOS \u0026 MARIA\\ProjetoCity\\ProjetoCity\\Views\\Home\\PainelCliente.cshtml",
               "RelativeDocumentMoniker": "ProjetoCity\\Views\\Home\\PainelCliente.cshtml",
               "ToolTip": "F:\\3A-DS-ETIM\\MARCOS \u0026 MARIA\\ProjetoCity\\ProjetoCity\\Views\\Home\\PainelCliente.cshtml",
               "RelativeToolTip": "ProjetoCity\\Views\\Home\\PainelCliente.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T11:03:50.924Z"
+              "WhenOpened": "2024-08-28T11:03:50.924Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Login.cshtml",
               "DocumentMoniker": "F:\\3A-DS-ETIM\\MARCOS \u0026 MARIA\\ProjetoCity\\ProjetoCity\\Views\\Home\\Login.cshtml",
               "RelativeDocumentMoniker": "ProjetoCity\\Views\\Home\\Login.cshtml",
@@ -78,36 +93,38 @@
               "RelativeToolTip": "ProjetoCity\\Views\\Home\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T11:02:03.271Z"
+              "WhenOpened": "2024-08-28T11:02:03.271Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ClienteRepository.cs",
               "DocumentMoniker": "F:\\3A-DS-ETIM\\MARCOS \u0026 MARIA\\ProjetoCity\\ProjetoCity\\Repository\\ClienteRepository.cs",
               "RelativeDocumentMoniker": "ProjetoCity\\Repository\\ClienteRepository.cs",
               "ToolTip": "F:\\3A-DS-ETIM\\MARCOS \u0026 MARIA\\ProjetoCity\\ProjetoCity\\Repository\\ClienteRepository.cs",
               "RelativeToolTip": "ProjetoCity\\Repository\\ClienteRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAowB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAYwIQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T10:57:56.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IClienteRepository.cs",
               "DocumentMoniker": "F:\\3A-DS-ETIM\\MARCOS \u0026 MARIA\\ProjetoCity\\ProjetoCity\\Repository\\IClienteRepository.cs",
               "RelativeDocumentMoniker": "ProjetoCity\\Repository\\IClienteRepository.cs",
               "ToolTip": "F:\\3A-DS-ETIM\\MARCOS \u0026 MARIA\\ProjetoCity\\ProjetoCity\\Repository\\IClienteRepository.cs",
               "RelativeToolTip": "ProjetoCity\\Repository\\IClienteRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T10:55:53.781Z"
+              "WhenOpened": "2024-08-28T10:55:53.781Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "CadastrarCliente.cshtml",
               "DocumentMoniker": "F:\\3A-DS-ETIM\\MARCOS \u0026 MARIA\\ProjetoCity\\ProjetoCity\\Views\\Home\\CadastrarCliente.cshtml",
               "RelativeDocumentMoniker": "ProjetoCity\\Views\\Home\\CadastrarCliente.cshtml",
@@ -119,15 +136,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "F:\\3A-DS-ETIM\\MARCOS \u0026 MARIA\\ProjetoCity\\ProjetoCity\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ProjetoCity\\Controllers\\HomeController.cs",
               "ToolTip": "F:\\3A-DS-ETIM\\MARCOS \u0026 MARIA\\ProjetoCity\\ProjetoCity\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ProjetoCity\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAUwEkAAAA4AAAA",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwDwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T10:23:42.955Z"
+              "WhenOpened": "2024-08-28T10:23:42.955Z",
+              "EditorCaption": ""
             }
           ]
         }

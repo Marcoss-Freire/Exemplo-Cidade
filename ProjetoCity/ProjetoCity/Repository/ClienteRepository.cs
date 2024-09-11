@@ -12,12 +12,12 @@ public class ClienteRepository : IClienteRepository
 
     //metodo da conexão com banco de dados
     public ClienteRepository(IConfiguration conf) => _conexaoMySQL = conf.GetConnectionString("ConexaoMySQL");
-    
+
     //Login Cliente(metodo )
 
     public Cliente Login(string Email, string Senha)
     {
-         //usando a variavel conexao 
+        //usando a variavel conexao 
         using (var conexao = new MySqlConnection(_conexaoMySQL))
         {
             //abre a conexão com o banco de dados
@@ -26,7 +26,7 @@ public class ClienteRepository : IClienteRepository
             // variavel cmd que receb o select do banco de dados buscando email e senha
             MySqlCommand cmd = new MySqlCommand("select * from cliente where email = @Email and senha = @Senha", conexao);
 
-            //os paramentros do email e da senha 
+            // Os paramentros do email e da senha 
             cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = Email;
             cmd.Parameters.Add("@Senha", MySqlDbType.VarChar).Value = Senha;
 
@@ -50,7 +50,7 @@ public class ClienteRepository : IClienteRepository
             return cliente;
         }
     }
-    //metodo cadastar cliente 
+    // Método cadastar cliente 
     public void Cadastrar(Cliente cliente)
     {
         using (var conexao = new MySqlConnection(_conexaoMySQL))
@@ -68,5 +68,66 @@ public class ClienteRepository : IClienteRepository
             conexao.Close();
         }
 
+    }
+
+    // Método Listar todos clientes
+    public IEnumerable<Cliente> TodosClientes()
+    {
+        List<Cliente> Clientlist = new List<Cliente>();
+
+        using (var conexao = new MySqlConnection(_conexaoMySQL))
+        {
+            conexao.Open();
+            MySqlCommand cmd = new MySqlCommand("SELECT * from cliente", conexao);
+
+            MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+
+            conexao.Close();
+
+            foreach (DataRow dr in dt.Rows)
+            {
+                Clientlist.Add(
+                        new Cliente
+                        {
+                            Codigo = Convert.ToInt32(dr["codigo"]),
+                            Nome = ((string)dr["nome"]),
+                            Telefone = ((string)dr["telefone"]),
+                            Email = ((string)dr["email"]),
+
+                        });
+            }
+            return Clientlist;
+
+        }
+
+    }
+
+    //buscar todos os clientes por id
+    public Cliente ObterCliente(int Id)
+    {
+        using (var conexao = new MySqlConnection(_conexaoMySQL))
+        {
+            conexao.Open();
+            MySqlCommand cmd = new("SELECT * from cliente ", conexao);
+            cmd.Parameters.AddWithValue("@codigo", Id);
+
+            MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+            MySqlDataReader dr;
+
+            Cliente cliente = new Cliente();
+            // retorna conjunto de resultado ,  é funcionalmente equivalente a chamar ExecuteReader().
+            dr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+            while (dr.Read())
+            {
+                cliente.Codigo = Convert.ToInt32(dr["codigo"]);
+                cliente.Nome = (string)(dr["nome"]);
+                cliente.Telefone = (string)(dr["telefone"]);
+                cliente.Email = (string)(dr["email"]);
+
+            }
+            return cliente;
+        }
     }
 }

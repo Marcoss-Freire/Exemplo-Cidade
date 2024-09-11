@@ -250,3 +250,4 @@ F:\3A-DS-ETIM\MARCOS & MARIA\ProjetoCity\ProjetoCity\obj\Debug\net8.0\refint\Pro
 F:\3A-DS-ETIM\MARCOS & MARIA\ProjetoCity\ProjetoCity\obj\Debug\net8.0\ProjetoCity.pdb
 F:\3A-DS-ETIM\MARCOS & MARIA\ProjetoCity\ProjetoCity\obj\Debug\net8.0\ProjetoCity.genruntimeconfig.cache
 F:\3A-DS-ETIM\MARCOS & MARIA\ProjetoCity\ProjetoCity\obj\Debug\net8.0\ref\ProjetoCity.dll
+F:\3A-DS-ETIM\MARCOS & MARIA\ProjetoCity\ProjetoCity\obj\Debug\net8.0\ProjetoCity.sourcelink.json
